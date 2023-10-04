@@ -1,0 +1,54 @@
+
+/* new section on tittactoe */
+
+.btnCont button{
+    /* padding:28px; */
+    /* height: 70px; */
+    /* font-size: 12px; */
+    /* margin: 2px 0; */
+    /* background-color: white;
+    border: 1px solid black; */
+}
+
+.divCont{
+    display: flex;
+
+}
+
+#start{
+    padding: 14px 25px;
+    border: none;
+    background-color: dodgerblue;
+    color: white;
+    cursor: pointer;
+    transition: .3s ease;
+    font-weight: bold;
+}
+
+#start:hover{
+    box-shadow: 0 0 12px 3px dodgerblue;
+}
+
+.divCont div{
+    border-top: none;
+    border-bottom:none;
+    border-left:none;
+    border-right:none;
+    border: 1px solid gainsboro;
+    width: 30%;
+    height: 20px;
+    padding: 30px;
+}
+
+.btnCont h3{
+    font-family: cursive;
+    font-size: 23px;
+}
+
+.btnCont{
+    margin: 100px auto;
+    padding: 50px;
+    border: 2px solid rgb(46, 45, 45);
+    max-width: 300px;
+    text-align: center;
+}
